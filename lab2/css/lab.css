@@ -1,9 +1,105 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.5em;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+header {
+  background: #ffc4ec;
+  height: 100px;
+  cursor: cell;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 0;
+  padding-top: 35px;
+  text-align: center;
+  word-spacing: 5px;
+  text-decoration: underline;
+}
+h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 0;
+  padding-top: 35px;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 55px;
+  color: rgb(255, 255, 255);
+}
+main {
+  padding-right: 55px;
+  padding-left: 55px;
+  padding-bottom: 10010px;
+  margin-bottom: -9000px;
+  float: left;
+  width: 100%;
+  cursor: cell;
+}
+
+nav {
+  padding-top: 30px;
+  padding-bottom: 10010px;
+  margin-bottom: -9000px;
+  float: left;
+  width: 450px;
+  margin-left: -450px;
+  background: #ffe6f7;
+  height: 100%;
+  cursor: cell;
+}
+
+
+#wrapper {
+  overflow: hidden;
+}
+      
+#content {
+  margin-right: 450px;
+}
+
+
+.cushion {
+  margin: 15px; /* Padding for content */
+  margin-top: 0;
+}
+
+p {
+  color: #555;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  cursor: crosshair;
+}
+
+nav ul a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  color: rgb(88, 0, 57);
+  cursor: crosshair;
+}
+
+.turnip-photo {
+  
+  margin-left: 26%;
+  margin-top: 5px;
+  max-width: 500px;
+  border: inset 4px #4f1b51;
+}
