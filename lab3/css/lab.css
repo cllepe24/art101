@@ -7,3 +7,12 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .file-structure-screenshot {
+    max-height: 300px;
+    max-width: 500px;
+    height: 300px;
+    width: 500px;
+  }
+
+ 
