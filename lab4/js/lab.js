@@ -10,7 +10,7 @@
           //Ball following correct movement/path
           //Insert game points
     //Conditions for winning
-    //Confitions for losing 
+    // Confitions for losing 
 // Constants
 
 // Functions
