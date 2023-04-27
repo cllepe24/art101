@@ -4,13 +4,13 @@
 
 
 // Define Variables
-make = "Ford";
-model = "Taurus";
-color = "Rusty";
-year = 1995;
+var make = "Ford";
+var model = "Taurus";
+var color = "Rusty";
+var year = 1995;
 
 // calculate 
-age = 2019 - year;
+var age = 2019 - year;
 
 // output
 document.writeln("Make: " + make + "<br>");
