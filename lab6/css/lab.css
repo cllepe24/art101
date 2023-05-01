@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+
+  .metro-bus {
+    max-height: 598px;
+    max-width: 824px;
+    height: 299px;
+    width: 412px;
+  }
