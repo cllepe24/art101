@@ -1,25 +1,24 @@
-/**
- * Author: Corissa Lepe
- * Created: 05.03.2023
- * 
- */
+// index.js - Lab 7: Functions
+//Author: Corissa Lepe
+//Created: 05.03.2023
+ 
+//Constants
 
+// Functions
 function sortUserName() {
-    var userName = window.propmpt("Hi. Please tell me your name so I can fix it.");
-    console.log("underName =", userName);
-    //split string using array
-    var nameArray = userName.split('');
-    console.log("nameArray =", nameArray);
-    //sort the array
-    var nameArraySort = nameArray.sort();
-    console.log("nameArraySort =", nameArraySort);
-    //join array back to a string
-    var nameSorted = nameArraySort.join('');
-    console.log("nameSorted =", nameSorted);
-    //could have done a whole line but didn't
-    return nameSorted;
+  var userName = window.prompt("Hi! Please tell me your name so I can fix it.")
+  console.log("userName =", userName);
+  var nameArray = userName.split('');
+  console.log("nameArray =", nameArray);
+  var nameArraySort = nameArray.sort();
+  console.log("nameArraySort =", nameArraySort);
+  var nameSorted = nameArraySort.join('');
+  console.log("nameArraySort =", nameArraySort);
+  var nameSorted = nameArraySort.join('');
+  console.log ("nameSorted =", nameSorted);
+  return nameSorted;
 }
-
-//output
-document.writeln("Oh hey, I've fixed your name: ",
-    sortUserName(), "</br>");
+//Output
+document.writeln("Here is your sorted name: ",
+  sortUserName(), "</br>");
+document.writeln("And oh hey, I fixed your name. <br> Your new one is above.")
