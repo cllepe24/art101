@@ -22,3 +22,9 @@ function sortUserName() {
 document.writeln("Here is your sorted name: ",
   sortUserName(), "</br>");
 document.writeln("And oh hey, I fixed your name. <br> Your new one is above.")
+
+function main () {
+    console.log("Main Function started.");
+}
+
+main();
