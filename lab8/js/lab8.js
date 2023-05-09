@@ -3,20 +3,20 @@
 //Created: 8 May
 //
 
-function thisThing(x){
+function isEven(x){
     var results = (x * 5 == 45);
     return results
 }
 
 // test function 
-console.log("Is 5 even? ", isEven(5));
-console.log("Is 9 even? ", isEven(9));
+console.log("testing 5 times 5: ", isEven(5));
+console.log("testing 9 times 5: ", isEven(9));
 
 array = [50, 42, 6, 25, 17]
 console.log("My array", array);
 
 var result = array.map(isEven);
-console.log("Test of evenness pf array:", result);
+console.log("Testing the array elements times 5:", result);
 
 var result = array.map(function(x){
     return x ** 2;
