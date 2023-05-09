@@ -19,6 +19,8 @@ var result = array.map(isEven);
 console.log("Testing the array elements times 5:", result);
 
 var result = array.map(function(x){
+    console.log("this is all array elements squared: ", result);
     return x ** 2;
+
 })
 
