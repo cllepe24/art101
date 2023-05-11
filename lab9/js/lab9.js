@@ -14,6 +14,7 @@ window.onload = function () {
     // Step two
     new1El.innerHTML = "CLICK ME!";
     new1El.id = "new-one";
+    new1El = document.addEventListener("click", msg);
 
     // Step two
     var new2El = document.createElement("button");
@@ -35,4 +36,12 @@ window.onload = function () {
 
     outputEl.className = "changed";
 
+}
+
+function msg() {
+    alert(":)");
+}
+
+function msg2() {
+    alert(">:(");
 }
