@@ -21,6 +21,7 @@ window.onload = function () {
     // Step two
     new2El.innerHTML = "NO, CLICK ME!";
     new2El.addEventListener("click", msg2);
+    
 
     // Step three
     outputEl.appendChild(new1El);
