@@ -9,14 +9,14 @@ window.onload = function () {
     console.log("outputEl: ", outputEl);
     
     // Create a new element with document.createElement("p") and assign it to a variable new1El (step 2)
-    var new1El = document.createElement("p");
+    var new1El = document.createElement("button");
 
     // Change the html attribute of new1El to say "something new.""
     new1El.innerHTML = "Something new.";
     new1El.id = "new-one";
 
     // Create a new element with document.createElement("p") and assign it to a variable new1El
-    var new2El = document.createElement("p");
+    var new2El = document.createElement("button");
     new1El.id = "new-two";
 
     // Change the html attribute of new1El to say "something else.""
@@ -28,8 +28,8 @@ window.onload = function () {
 
     // Change the css attributes of at least two elements of your page
     // we do some stuff
-    // new1El.style.color = "blue";
-    // outputEl.style.border = "dashed 1px red";
+    // new1El.style.color = "green";
+    // outputEl.style.border = "dashed 3px purple";
     outputEl.className = "changed";
 
 }
