@@ -14,7 +14,7 @@ window.onload = function () {
     // Step two
     new1El.innerHTML = "CLICK ME!";
     new1El.id = "new-one";
-    new1El = document.addEventListener("click", msg);
+    new1El.addEventListener("click", msg);
 
     // Step two
     var new2El = document.createElement("button");
