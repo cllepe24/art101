@@ -12,7 +12,7 @@ window.onload = function () {
     var new1El = document.createElement("button");
 
     // Change the html attribute of new1El to say "something new.""
-    new1El.innerHTML = "Something new.";
+    new1El.innerHTML = "CLICK ME!";
     new1El.id = "new-one";
 
     // Create a new element with document.createElement("p") and assign it to a variable new1El
@@ -20,7 +20,7 @@ window.onload = function () {
     new1El.id = "new-two";
 
     // Change the html attribute of new1El to say "something else.""
-    new2El.innerHTML = "Something else.";
+    new2El.innerHTML = "NO, CLICK ME!";
 
     // Append both new elements one at a time using appendChild() (step 3)
     outputEl.appendChild(new1El);
