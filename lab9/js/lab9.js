@@ -13,12 +13,10 @@ window.onload = function () {
 
     // Step two
     new1El.innerHTML = "CLICK ME!";
-    new1El.id = "new-one";
     new1El.addEventListener("click", msg);
 
     // Step two
     var new2El = document.createElement("button");
-    new1El.id = "new-two";
 
     // Step two
     new2El.innerHTML = "NO, CLICK ME!";
