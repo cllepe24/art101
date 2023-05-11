@@ -29,8 +29,7 @@ window.onload = function () {
 
     // Change the css attributes of at least two elements of your page
     // we do some stuff
-    // new1El.style.color = "green";
-    // outputEl.style.border = "dashed 3px purple";
+    // outputEl.style.border = "dashed 10px green";
     // new1El.style.fontSize = "15px"
     // new2El.style.fontSize = "15px"
 
