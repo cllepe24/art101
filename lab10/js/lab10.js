@@ -28,7 +28,7 @@ function reorderUsername(word) {
     var newArray = shuffleArray(wordArray);
     return newArray.join('');
 
-}
+};
 
 //find the button element 
 buttonEl = document.getElementById("my-button");
