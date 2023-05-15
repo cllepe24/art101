@@ -9,7 +9,7 @@
 function shuffleArray (array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
     //shuffle elements
-    (0 !== currentIndex); {
+    (0 !== currentIndex) {
         //pick remaining element
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
