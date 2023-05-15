@@ -30,16 +30,6 @@ function reorderUsername(word) {
 
 }
 
-//return string in title case
-function toTitleCase(str) {
-    return str.replace(
-        /\w\S*/g,
-        function(txt) {
-            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-        }
-    );
-}
-
 //find the button element 
 buttonEl = document.getElementById("my-button");
 console,log("button element:", buttonEl);
