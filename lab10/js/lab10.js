@@ -22,7 +22,7 @@ function sortUserName(userName) {
   // add button
   var button = document.getElementById('my-button');
   button.addEventListener('click', function() {
-    console.log("We got here.");
+    console.log("Here we are.");
     inputValue = document.getElementById('user-name').value;
     var sortedName = sortUserName(inputValue);
     console.log("Results", sortedName);
