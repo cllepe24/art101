@@ -9,10 +9,11 @@
 function shuffleArray (array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
     //shuffle elements
-    (0 !== currentIndex) {
+    (0 !== currentIndex); {
         //pick remaining element
         randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex = 1;
+        currentIndex -= 1;
+
         //swap with current element 
         temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
