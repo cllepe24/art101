@@ -9,7 +9,7 @@
 function shuffleArray (array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
     //shuffle elements
-    (0 !== currentIndex) {
+   while (0 !== currentIndex) {
         //pick remaining element
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
@@ -23,18 +23,28 @@ function shuffleArray (array) {
 }
 
 //sortUserName to take user input and sort the letters of name
-function reorderUsername(word) {
+function reorderUserName(word) {
     var wordArray = word.toLowercase().split('');
     var newArray = shuffleArray(wordArray);
     return newArray.join('');
 
-};
+}
+
+// given a string, return string in Title Case
+function toTitleCase(str) {
+    return str.replace(
+        /\w\S*/g,
+        function(txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        }
+    );
+}
 
 //find the button element 
 buttonEl = document.getElementById("my-button");
-console,log("button element:", buttonEl);
+console.log("button element:", buttonEl);
 //find the form element 
-inputEl = document.getElementById("user-name")
+inputEl = document.getElementById("user-name");
 console.log("input element:", inputEl);
 //find output element
 outputEl = document.getElementById("output");
