@@ -4,3 +4,12 @@
   border: solid 1px #888;
   background-color: #DDD8C4;
 }
+
+#output.cols {
+column-width: 200px
+}
+
+.error {
+  color:red;
+  font-weight: bold;
+}
